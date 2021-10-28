@@ -4,3 +4,5 @@ resource "aws_instance" "git-action" {
   tags = {
     Name = "Launched-by-Github-Action"
   }
+  
+  
